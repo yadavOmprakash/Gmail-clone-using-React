@@ -1,0 +1,28 @@
+.mail-body-left-sidebar{
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 25px;
+    padding: 0px 12px !important;
+    margin-right: 20px;
+    
+}
+
+.mail-body-left-sidebar h4{
+    font-size: 14px;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+.mail-body-left-sidebar p{
+    opacity: 1;
+    color: rgb(94,94,94);
+    font-size: 15px;
+    font-weight: lighter;
+}
+.mail-body-left-sidebar:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}

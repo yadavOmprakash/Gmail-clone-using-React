@@ -1,0 +1,40 @@
+.header{
+    display:grid;
+    grid-template-columns: 250px auto 200px;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 10px;
+}
+
+.header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-middle{
+    display: flex;
+    flex: 0.7;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.header-middle input{
+    border: 0;
+    background: transparent;
+    outline: 0;
+    font-size: 15px;
+    letter-spacing: 0.9px;
+    flex: 1;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.gmail-logo{
+    height:23px;
+    width: 90px;
+}

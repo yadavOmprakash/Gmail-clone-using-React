@@ -1,0 +1,86 @@
+.compose{
+    position: absolute;
+    bottom: 0;
+    right: 70px;
+    min-width: 600px;
+    box-shadow: 0px 0px 8px rgb(51 51 51/59%);
+    border-radius: 10px 10px 0px 0px;
+
+}
+.compose-top{
+    overflow: hidden;
+    border-radius:  10px 10px 0px 0px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    cursor:  pointer;
+    justify-content: space-between; 
+    padding: 6px 10px;
+}
+
+.compose-top-right svg{
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.compose-top-right svg:hover{
+    background-color: white;
+}
+
+.input-box{
+    display: flex;
+    outline: none;
+    border: 0;
+    box-shadow: inset 0 -1px 0 0 rgb(100 121 143/12%);
+    padding: 12px 10px;
+    width: 600px;
+}
+.textbox{
+    margin-top: 0;
+    outline: none;
+    border: 0;
+    box-shadow: inset 0 -1px 0 0 rgb(100 121 143/12%);
+    padding: 10px 10px;
+    height: auto;
+    min-width: 600px;
+}
+.compose-bottom{
+ 
+    display: flex;
+    justify-content:space-between ;
+    padding: 4px 10px 15px 10px;
+    min-width: 600px;
+    /* margin: 0;
+    border: 0; */
+}
+.compose-bottom svg{
+    padding: 4px 4px;
+    font-size: 20px;
+}
+
+button{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: #0b57d0;
+    border-radius: 20px;
+    outline:0px;
+    color: white;
+    padding: 4px 15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.compose-bottom-left {
+    display: inline-block;
+    align-items: center;
+}
+
+.compose-bottom-right{
+    display: inline-block;
+
+    align-items: center;
+    padding-left: 200px;
+    margin-top: 10px;
+    
+}

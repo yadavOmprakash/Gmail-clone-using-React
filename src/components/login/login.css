@@ -1,0 +1,24 @@
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    padding:50px;
+    width: 350px;
+    margin: auto;
+    margin-top: 300px;
+}
+.Login img{
+    width: 250px;
+}
+.gmail-login-button{
+    background-color: #4385f5; border:0;
+    padding: 15px 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px; outline: 0;
+    cursor: pointer;
+    border-radius: 1px;
+}

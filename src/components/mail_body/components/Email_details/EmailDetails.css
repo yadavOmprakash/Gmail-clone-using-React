@@ -1,0 +1,43 @@
+.EmailDetailsMiddle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -5px 5px -5px whitesmoke,
+         -5px 0 5px -5px whitesmoke, 
+          5px 0 5px -5px whitesmoke;
+    
+}
+.EmailDetailsMiddle svg{
+    font-size: 18px;
+}
+
+.EmailDetailsTop svg{
+    font-size: 18px;
+}
+.EmailDetailsMiddleTwo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 -5px 5px -5px whitesmoke,
+    -5px 0 5px -5px whitesmoke, 
+     5px 0 5px -5px whitesmoke;
+
+}
+.EmailDetailsMiddleTwo svg{
+    font-size: 18px;
+
+}
+.EmailDetailsMiddleLeftTwo{
+    display: flex ;
+    align-items: center;
+}
+span{
+    font-size: 12px;
+    margin-left: 10px;
+}
+.EmailDetailBottom{
+    box-shadow: 0 5px 5px -5px whitesmoke,
+              -5px 0 5px -5px whitesmoke, 
+              5px 0 5px -5px whitesmoke;
+    height: 100%;
+}

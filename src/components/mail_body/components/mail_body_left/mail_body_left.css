@@ -1,0 +1,23 @@
+.mail-body-left{
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+
+}
+
+.compose-btn{
+    padding:10px 20px !important;
+    border-radius: 38px !important;
+    box-shadow: 2px 2px 3px #ccc;
+    margin: 10px 20px auto 20px !important;
+    max-width: 150px;
+}
+.mail-body-left-heading-label{
+    margin-left: 10px;
+    font-size: 17px;
+    padding-left: 20px;
+    font-weight: normal;
+}
+.mail-body-left svg{
+    color: rgb(94, 94,94);
+    font-size: 20px;
+    width: 20px;
+}
