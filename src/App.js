@@ -1,4 +1,4 @@
-timport React, { useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import MailBody from '..//src/components/mail_body/MailBody';
 import Header from '../src/components/header/Header'
